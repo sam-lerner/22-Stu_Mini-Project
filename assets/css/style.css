@@ -1,0 +1,9 @@
+* {
+    font-family: "Avenir Next", "Century Gothic", sans-serif;
+    color: white;
+    background-color: black;
+}
+.section-1 {
+    color: orange;
+    font-weight: bolder;
+}
