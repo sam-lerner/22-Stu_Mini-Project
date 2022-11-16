@@ -40,6 +40,7 @@ It's done when the page is deployed to GitHub Pages.
 
 */
 
+/* Formatting for entire document. */
 * {
     font-family: "Avenir Next", "Century Gothic", sans-serif;
     color: navy;
@@ -48,6 +49,8 @@ It's done when the page is deployed to GitHub Pages.
     padding: 0;
     margin: 0;
 }
+
+/* Formatting for the header */
 .header {
    background-color: gray;
     width: 100%;
@@ -75,7 +78,7 @@ font-size: 48px;
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Formatting for the sections in the body. Additional formating for header h2 and paragraph. */
 .section {
     padding-top: 15px;
     margin-right: 20px;
@@ -92,15 +95,19 @@ font-size: 48px;
     font-size: 12px;
 }
 
+/* Formatting for the footer */
 #footer {
 font-size: small;
 font-style: italic;
 font-weight: bold;
-
 }
+
+/* This impacts everything in the main section of the html */
 main {
     padding-left: 10px;
 }
+
+/* This impacts just the form */
 form {
 width: 50%;
 }
