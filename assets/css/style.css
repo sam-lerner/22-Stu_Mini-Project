@@ -54,7 +54,7 @@ It's done when the page is deployed to GitHub Pages.
 .header {
    background-color: gray;
     width: 100%;
-    padding: 20px;
+    padding: 30px;
     position: sticky;
     top: 0px;
     overflow: auto;
@@ -100,6 +100,7 @@ font-size: 48px;
 font-size: small;
 font-style: italic;
 font-weight: bold;
+padding: 200px;
 }
 
 /* This impacts everything in the main section of the html */
